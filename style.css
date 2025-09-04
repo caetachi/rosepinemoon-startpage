@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
-	--font: "Cartograph CF";
+	--font: "Montserrat";
 	--bgcolor: #1f1d2e;
 	--linkcolor: #e0def4;
 }
@@ -56,6 +58,13 @@ body {
 	width: 750px;
 }
 
+.title {
+	font-size: 1.5rem;
+	font-family: var(--font);
+	color: var(--linkcolor);
+	font-weight: 500;
+}
+
 ul {
 	padding-inline-start: 0;
 	list-style: none;
@@ -77,8 +86,7 @@ a:hover {
 }
 
 .time {
-    font-family: "Cartograph CF"; monospace;
-    font-weight: mono;
+    font-family: "Montserrat";
     font-size: 5.5rem;
     margin: 50px 0px 50px 0px;
     color: var(--linkcolor);
