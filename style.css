@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-	--font: "Montserrat";
+	--font: "Roboto";
 	--bgcolor: #1f1d2e;
 	--linkcolor: #e0def4;
 }
@@ -12,7 +12,7 @@ input {
     width: 680px;
     background: #26233a;
     color: #ebbcba;
-    font: "Cartograph CF";
+    font: "Roboto";
     font-weight: mono;
     line-height: 1.8em;
     box-shadow: 1px 1px 3px #000000;
@@ -59,7 +59,7 @@ body {
 }
 
 .title {
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	font-family: var(--font);
 	color: var(--linkcolor);
 }
@@ -85,7 +85,7 @@ a:hover {
 }
 
 .time {
-    font-family: "Montserrat";
+    font-family: "Roboto";
     font-size: 5.5rem;
     margin: 50px 0px 50px 0px;
     color: var(--linkcolor);
